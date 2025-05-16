@@ -18,7 +18,4 @@ if [ $? -eq 0 ]
         echo "Installing MySQL is ... FAILURE"
         exit 1
     fi
-else
-    echo "MySQL is already installed...Nothing to do"
-    
-fi
+
