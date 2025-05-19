@@ -8,6 +8,10 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
+#we use red - packages
+#we use green - success
+#we use yellow - if alredy installed
+
 if [ $USERID -ne 0 ]
 then
     #hear colour red is giving and ending eith normal colour
