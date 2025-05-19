@@ -12,3 +12,7 @@ echo -e "\e[31m hi,welcome \e[0m"
 
 #this line prints normal white colour
 echo "Good morning"
+
+#2nd colour
+echo -e "\e[32m colour changed!!!!\e[0m "
+echo "normal white colour!!"
