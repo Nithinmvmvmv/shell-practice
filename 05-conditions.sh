@@ -11,4 +11,3 @@ then
 echo "Given number $NUMBER is less then 10"
 else
 echo "Given number $NUMBER is more then 10"
-fi
