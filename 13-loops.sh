@@ -6,7 +6,7 @@ echo "Total number of lines"
 
 total_lines=0
 
-# Loop through hidden files
+# Loop through hidden files and word count programme
 for file in .*; do
     # Skip . and ..
     if [[ "$file" != "." && "$file" != ".." && -f "$file" ]]; then
