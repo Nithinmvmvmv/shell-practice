@@ -10,7 +10,9 @@ else
     echo "running in root access"
     fi
 
-dnf list installed mysql
+dnf install mariadb-server -y
+
+#dnf list installed mysql
 if [ $? -eq 0 ]
     then
         echo "Installing MySQL is ... SUCCESS"
